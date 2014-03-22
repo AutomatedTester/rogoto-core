@@ -6,6 +6,7 @@ speed = 150
 BrickPiSetup()
 BrickPi.MotorEnable[PORT_A] = 1
 BrickPi.MotorEnable[PORT_B] = 1
+BrickPi.MotorEnable[PORT_C] = 1
 
 
 def pen_down():
