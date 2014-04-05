@@ -13,9 +13,9 @@ except (OSError, IOError):
 # dependencies
 deps = ['brickpi']
 
-setup(name='rogoto',
+setup(name='rogoto-core',
       version=version,
-      description="Marionette test automation client",
+      description="Rogoto Core library that drives the BrickPI",
       long_description=description,
       classifiers=['Development Status :: 2 - Pre-Alpha',
                    'License :: OSI Approved :: Apache Software License',
