@@ -13,7 +13,7 @@ except (OSError, IOError):
 # dependencies
 deps = []
 
-setup(name='rogoto_core',
+setup(name='rogoto-core',
       version=version,
       description="Rogoto Core library that drives the BrickPI",
       long_description=description,
