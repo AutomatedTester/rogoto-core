@@ -1,7 +1,7 @@
 import os
 from setuptools import setup, find_packages
 
-version = '0.1'
+version = '0.2'
 
 # get documentation from the README
 try:
@@ -11,9 +11,9 @@ except (OSError, IOError):
     description = ''
 
 # dependencies
-deps = ['brickpi']
+deps = []
 
-setup(name='rogoto-core',
+setup(name='rogoto_core',
       version=version,
       description="Rogoto Core library that drives the BrickPI",
       long_description=description,
@@ -23,7 +23,7 @@ setup(name='rogoto-core',
       keywords='brickpi',
       author='David Burns',
       author_email='david.burns@theautomatedtester.co.uk',
-      url='https://github.com/AutomatedTester/Rogoto',
+      url='https://github.com/AutomatedTester/rogoto-core',
       license='Apache',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,
