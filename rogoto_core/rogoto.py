@@ -38,12 +38,14 @@ def backward(steps):
 
 
 def left(deg):
-    BrickPi.MotorSpeed[PORT_B] = deg
+    BrickPi.MotorSpeed[PORT_B] = deg * speed
+    BrickPi.MotorSpeed[PORT_C] = deg * -speed
     BrickPiUpdateValues()
     BrickPi.MotorSpeed[PORT_B] = 0
 
 
 def right(deg):
-    BrickPi.MotorSpeed[PORT_C] = deg
+    BrickPi.MotorSpeed[PORT_C] = deg * speed
+    BrickPi.MotorSpeed[PORT_B] = deg * -speed
     BrickPiUpdateValues()
     BrickPi.MotorSpeed[PORT_C] = 0
