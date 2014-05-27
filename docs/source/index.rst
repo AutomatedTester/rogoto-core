@@ -6,6 +6,11 @@
 Welcome to Rogoto Core's documentation!
 =======================================
 
+Rogoto Core handles all the basic commands to control the Lego motors via the
+GPIO.
+
+The API, the parser code, is available at :doc:`rogoto`
+
 Contents:
 
 .. toctree::
