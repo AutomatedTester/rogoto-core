@@ -2,8 +2,5 @@ Rogoto
 ======
 
 .. automodule:: rogoto
-  :members:
-  :undoc-members:%
-
-.. toctree::
-  :maxdepth: 2
+   :members:
+   :undoc-members:
